@@ -37,3 +37,6 @@ Este sitio es la puerta de entrada a mis proyectos, redes profesionales y contac
 
 © 2025 Isabel Figueroa Vargas · Todos los derechos reservados
 
+---
+
+🔗 [Ver guía completa de publicación](./GUIA_CONECTADATA.md)
