@@ -1,4 +1,17 @@
-![Banner de Conectadata](./banner-conectadata.png)
+---
+
+### 🌐 Próximamente
+
+Muy pronto podrás explorar más sobre nuestro ecosistema en:
+
+- GitHub  
+- LinkedIn  
+- Microsoft Store  
+- VSC Marketplace  
+- Página oficial (en desarrollo)
+
+---
+
 
 # 🌐 Conectadata
 
