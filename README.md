@@ -1,3 +1,5 @@
+![Banner de Conectadata](./banner-conectadata.png)
+
 # 🌐 Conectadata
 
 **Landing profesional de Isabel Figueroa Vargas**  
