@@ -1,4 +1,9 @@
-![Banner](./Banner.png)
+# 🌐 Conectadata
+
+Landing profesional de Isabel Figueroa Vargas  
+Ingeniera y Consultora en Transformación Digital  
+Aplico IA, Python y React para automatizar procesos y construir soluciones inteligentes.
+
 ---
 
 ### 🌐 Próximamente
