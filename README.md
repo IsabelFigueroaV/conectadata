@@ -1,6 +1,8 @@
 # 🌐 Conectadata
 
-Landing profesional de Isabel Figueroa Vargas  
+![Banner Conectadata](assets/img/banner-conectadata.png)
+
+Landing profesional de Isabel Figueroa Vargas
 Ingeniera y Consultora en Transformación Digital  
 Aplico IA, Python y React para automatizar procesos y construir soluciones inteligentes.
 
@@ -47,6 +49,11 @@ Este sitio es la puerta de entrada a mis proyectos, redes profesionales y contac
 - HTML5
 - CSS3
 - GitHub Pages
+- Estructura de carpetas en `assets` para imágenes y estilos
+
+### 🖥️ Compatibilidad
+
+Pensado para Visual Studio Code en Windows 11. Ejecuta `code .` desde PowerShell para abrir el proyecto.
 
 ---
 
