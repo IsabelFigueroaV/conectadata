@@ -1,4 +1,4 @@
-# 🌐 Conectadata
+## 🌐 Conectadata
 
 
 Landing profesional de Isabel Figueroa Vargas
@@ -7,7 +7,7 @@ Aplico IA, Python y React para automatizar procesos y construir soluciones intel
 
 ---
 
-### 🌐 Próximamente
+### 🛠 Próximamente
 
 Muy pronto podrás explorar más sobre nuestro ecosistema en:
 
@@ -69,7 +69,7 @@ Pensado para Visual Studio Code en Windows 11. Ejecuta `code .` desde PowerShell
 🔗 [Ver guía completa de publicación](./GUIA_CONECTADATA.md)
 
 
-## 🛠️ Tecnologías
+
 
 <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 20px 0;">
   
