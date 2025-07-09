@@ -1,6 +1,5 @@
 # 🌐 Conectadata
 
-![Banner Conectadata](assets/img/banner-conectadata.png)
 
 Landing profesional de Isabel Figueroa Vargas
 Ingeniera y Consultora en Transformación Digital  
@@ -19,7 +18,7 @@ Muy pronto podrás explorar más sobre nuestro ecosistema en:
 - Página oficial (en desarrollo)
 
 ---
-
+<!-- Logro Articódromo -->
 
 # 🌐 Conectadata
 
@@ -68,3 +67,43 @@ Pensado para Visual Studio Code en Windows 11. Ejecuta `code .` desde PowerShell
 ---
 
 🔗 [Ver guía completa de publicación](./GUIA_CONECTADATA.md)
+
+
+## 🛠️ Tecnologías
+
+<div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 20px 0;">
+  
+  <!-- HTML5 -->
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="HTML5" height="50" />
+  </a>
+  
+  <!-- CSS3 -->
+  <a href="https://www.w3schools.com/css/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="CSS3" height="50" />
+  </a>
+  
+  <!-- JavaScript -->
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" height="50" />
+  </a>
+  
+  <!-- React -->
+  <a href="https://reactjs.org/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React" height="50" />
+  </a>
+  
+  <!-- Git -->
+  <a href="https://git-scm.com/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" height="50" />
+  </a>
+  
+  <!-- npm -->
+  <a href="https://www.npmjs.com/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="npm" height="50" />
+  </a>
+</div>
+
+  <!-- Logro Articódromo -->
+
+  
