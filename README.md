@@ -69,3 +69,4 @@ Pensado para Visual Studio Code en Windows 11. Ejecuta `code .` desde PowerShell
   <!-- Logro Articódromo -->
 
   
+### Este es un cambio de prueba para practicar Pull Requests
