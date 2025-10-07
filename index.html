@@ -1,46 +1,136 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Landing profesional de Isabel Figueroa Vargas, ingeniera y consultora en transformación digital" />
-  <title>Isabel Figueroa | Conectadata</title>
-  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Landing profesional de Isabel Figueroa Vargas, ingeniera y consultora en transformación digital"
+    />
+    <title>Isabel Figueroa | Conectadata</title>
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-444CXTLPBJ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-444CXTLPBJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'G-444CXTLPBJ');
-  </script>
-</head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Landing profesional de Isabel Figueroa Vargas, ingeniera y consultora en transformación digital" />
-  <title>Isabel Figueroa | Conectadata</title>
-  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-  <img src="assets/img/isa.jpg" alt="Fotografía de Isabel Figueroa" class="foto-perfil" />
-  <h1>Isabel Figueroa Vargas</h1>
-  <p>Ingeniera y Consultora en Transformación Digital<br>
-     Aplico IA, Python y React para soluciones inteligentes</p>
+      gtag('config', 'G-444CXTLPBJ');
+    </script>
+  </head>
+  <body>
+    <main class="page-wrapper">
+      <section class="profile-card" aria-labelledby="profile-title">
+        <img src="assets/img/isa.jpg" alt="Fotografía de Isabel Figueroa" class="foto-perfil" />
+        <h1 id="profile-title">Isabel Figueroa Vargas</h1>
+        <p>
+          Ingeniera y Consultora en Transformación Digital<br />
+          Aplico IA, Python y React para soluciones inteligentes
+        </p>
 
-  <div class="construccion">🔧 Sitio en construcción · Pronto disponible</div>
+        <div class="profile-actions">
+          <a
+            href="https://github.com/IsabelFigueroaV"
+            class="button"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/isabelfigueroav/?utm_medium=social&utm_source=landing&utm_campaign=perfil"
+            class="button"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+          <a href="mailto:isabelfigueroavargas@rrhh1313.onmicrosoft.com" class="button">Contacto</a>
+        </div>
+        <div class="construccion">🔧 Sitio en construcción · Pronto disponible</div>
+      </section>
 
-  <div>
-    <a href="https://github.com/IsabelFigueroaV" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
-    <a href="https://www.linkedin.com/in/isabelfigueroav/?utm_medium=social&utm_source=landing&utm_campaign=perfil" class="button" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    <a href="mailto:isabelfigueroavargas@rrhh1313.onmicrosoft.com" class="button">Contacto</a>
-  </div>
+      <section class="calendar-section" aria-labelledby="calendar-title">
+        <div class="calendar-section__header">
+          <h2 id="calendar-title">Agenda profesional</h2>
+          <p>Organiza reuniones, seguimientos y recordatorios clave desde cualquier dispositivo.</p>
+        </div>
 
-  <footer>
-    © 2025 Conectadata · Todos los derechos reservados
-  </footer>
-</body>
+        <div class="calendar-wrapper" data-calendar-app>
+          <header class="calendar-controls">
+            <button type="button" class="calendar-controls__button" data-action="prev-month" aria-label="Mes anterior">
+              ◀
+            </button>
+            <h3 class="calendar-controls__title" data-role="current-month"></h3>
+            <button type="button" class="calendar-controls__button" data-action="next-month" aria-label="Mes siguiente">
+              ▶
+            </button>
+          </header>
+
+          <div class="calendar-weekdays" data-role="weekday-row" aria-hidden="true"></div>
+          <div class="calendar-grid" data-role="calendar-grid" role="grid" aria-label="Calendario mensual"></div>
+
+          <aside class="event-sidebar">
+            <header class="event-sidebar__header">
+              <h3>Eventos del <span data-role="selected-date"></span></h3>
+              <button type="button" class="button button--secondary" data-action="open-form">Añadir evento</button>
+            </header>
+            <p class="event-sidebar__empty" data-role="empty-state" hidden>
+              No hay eventos programados para esta fecha.
+            </p>
+            <ul class="event-list" data-role="event-list" aria-live="polite"></ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal-overlay" data-role="modal-overlay" hidden></div>
+    <section class="modal" id="event-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+      <div class="modal__content">
+        <header class="modal__header">
+          <h2 id="modal-title" data-role="modal-title">Nuevo evento</h2>
+          <button type="button" class="modal__close" data-action="close-modal" aria-label="Cerrar">
+            ×
+          </button>
+        </header>
+        <form id="event-form" class="modal__form">
+          <input type="hidden" name="eventId" />
+          <div class="form-field">
+            <label for="event-title">Título *</label>
+            <input id="event-title" name="title" type="text" placeholder="Reunión, entrega, workshop..." required />
+          </div>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="event-date">Fecha *</label>
+              <input id="event-date" name="date" type="date" required />
+            </div>
+            <div class="form-field">
+              <label for="event-start">Hora inicio</label>
+              <input id="event-start" name="startTime" type="time" />
+            </div>
+            <div class="form-field">
+              <label for="event-end">Hora fin</label>
+              <input id="event-end" name="endTime" type="time" />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="event-description">Notas</label>
+            <textarea id="event-description" name="description" rows="3" placeholder="Objetivos, enlaces o recordatorios"></textarea>
+          </div>
+          <div class="modal__actions">
+            <button type="button" class="button button--ghost" data-action="close-modal">Cancelar</button>
+            <button type="button" class="button button--danger" data-action="delete-event" hidden>Eliminar</button>
+            <button type="submit" class="button">Guardar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 Conectadata · Todos los derechos reservados
+    </footer>
+
+    <script type="module" src="assets/js/calendar.js"></script>
+  </body>
 </html>
