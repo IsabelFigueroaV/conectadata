@@ -26,17 +26,12 @@ body {
 }
 
 .foto-perfil {
-  width: 145px !important;
-  height: 145px !important;
-  max-width: 145px !important;
-  max-height: 145px !important;
+  width: 125px !important;
+  height: 125px !important;
+  max-width: 125px !important;
+  max-height: 125px !important;
   border-radius: 50% !important;
-  object-fit: cover !important;
-  object-position: center top !important;
-  display: block;
-  margin: 0 auto 28px auto;
-  border: 4px solid #ffffff;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+  object-fit: cover
 }
 
 h1 {
