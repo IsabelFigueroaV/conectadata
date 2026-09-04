@@ -11,12 +11,12 @@ body {
   text-align: center;
 
   background:
-    linear-gradient(rgba(245, 248, 252, 0.62), rgba(245, 248, 252, 0.78)),
-  url("../img/banner-conectadata.png");
+    linear-gradient(rgba(245, 248, 252, 0.68), rgba(245, 248, 252, 0.82)),
+    url("../img/banner-conectadata.png");
 
   background-repeat: no-repeat;
-  background-size: min(8200px auto;
-  background-position: center 70px;
+  background-size: 850px auto;
+  background-position: center 55px;
   background-attachment: scroll;
 
   display: flex;
@@ -31,7 +31,12 @@ body {
   max-width: 125px !important;
   max-height: 125px !important;
   border-radius: 50% !important;
-  object-fit: cover
+  object-fit: cover !important;
+  object-position: center top !important;
+  display: block;
+  margin: 0 auto 28px auto;
+  border: 4px solid #ffffff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 
 h1 {
@@ -54,7 +59,7 @@ p {
   max-width: 920px;
   margin: 0 auto 42px;
   padding: 22px 32px;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.90);
   border: 1px solid rgba(120, 145, 175, 0.30);
   border-radius: 18px;
   color: #24364b;
@@ -94,13 +99,16 @@ footer {
 @media (max-width: 700px) {
   body {
     padding: 28px 16px;
-    background-attachment: scroll;
+    background-size: 620px auto;
+    background-position: center 40px;
   }
 
   .foto-perfil {
-    width: 135px;
-    height: 135px;
-    margin-bottom: 26px;
+    width: 115px !important;
+    height: 115px !important;
+    max-width: 115px !important;
+    max-height: 115px !important;
+    margin-bottom: 24px;
   }
 
   h1 {
