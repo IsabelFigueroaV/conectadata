@@ -5,19 +5,17 @@
 body {
   margin: 0;
   min-height: 100vh;
-  padding: 32px 20px;
+  padding: 36px 20px;
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   color: #24364b;
   text-align: center;
 
-  background:
-    linear-gradient(rgba(245, 248, 252, 0.68), rgba(245, 248, 252, 0.82)),
-    url("../img/banner-conectadata.png");
-
-  background-repeat: no-repeat;
-  background-size: 850px auto;
-  background-position: center 55px;
-  background-attachment: scroll;
+  background: radial-gradient(
+    circle at top,
+    #e7f3ff 0%,
+    #f6f9fc 45%,
+    #ffffff 100%
+  );
 
   display: flex;
   flex-direction: column;
@@ -26,59 +24,58 @@ body {
 }
 
 .foto-perfil {
-  width: 125px !important;
-  height: 125px !important;
-  max-width: 125px !important;
-  max-height: 125px !important;
-  border-radius: 50% !important;
-  object-fit: cover !important;
-  object-position: center top !important;
+  width: 155px;
+  height: 155px;
+  max-width: 155px;
+  max-height: 155px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
   display: block;
-  margin: 0 auto 28px auto;
+  margin: 0 auto 30px auto;
   border: 4px solid #ffffff;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 
 h1 {
   margin: 0 0 18px;
-  font-size: 3rem;
+  font-size: 3.4rem;
   line-height: 1.1;
   color: #1f2d3d;
   font-weight: 800;
 }
 
 p {
-  max-width: 850px;
-  margin: 0 auto 32px;
-  font-size: 1.35rem;
+  max-width: 900px;
+  margin: 0 auto 34px;
+  font-size: 1.45rem;
   line-height: 1.5;
   color: #34495e;
 }
 
 .construccion {
-  max-width: 920px;
-  margin: 0 auto 42px;
-  padding: 22px 32px;
-  background: rgba(255, 255, 255, 0.90);
-  border: 1px solid rgba(120, 145, 175, 0.30);
+  max-width: 980px;
+  margin: 0 auto 44px;
+  padding: 24px 34px;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(120, 145, 175, 0.28);
   border-radius: 18px;
   color: #24364b;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 700;
   box-shadow: 0 12px 30px rgba(31, 45, 61, 0.08);
-  backdrop-filter: blur(6px);
 }
 
 a.button {
   display: inline-block;
-  min-width: 160px;
-  margin: 10px 14px;
-  padding: 16px 30px;
+  min-width: 180px;
+  margin: 10px 16px;
+  padding: 17px 34px;
   background: #0a7bd3;
   color: #ffffff;
   border-radius: 16px;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 700;
   box-shadow: 0 10px 22px rgba(10, 123, 211, 0.25);
   transition: all 0.25s ease;
@@ -92,31 +89,29 @@ a.button:hover {
 
 footer {
   margin-top: 46px;
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: #6f7f8f;
 }
 
 @media (max-width: 700px) {
   body {
     padding: 28px 16px;
-    background-size: 620px auto;
-    background-position: center 40px;
   }
 
   .foto-perfil {
-    width: 115px !important;
-    height: 115px !important;
-    max-width: 115px !important;
-    max-height: 115px !important;
+    width: 135px;
+    height: 135px;
+    max-width: 135px;
+    max-height: 135px;
     margin-bottom: 24px;
   }
 
   h1 {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
   }
 
   p {
-    font-size: 1.08rem;
+    font-size: 1.1rem;
   }
 
   .construccion {
@@ -127,7 +122,7 @@ footer {
   a.button {
     display: block;
     width: 100%;
-    max-width: 280px;
+    max-width: 290px;
     margin: 12px auto;
   }
 }
