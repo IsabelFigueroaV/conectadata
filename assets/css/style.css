@@ -1,63 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  background: #f4f6fa;
-  color: #333;
+  min-height: 100vh;
+  padding: 32px 20px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  color: #24364b;
+  text-align: center;
+
+  background:
+    linear-gradient(rgba(245, 248, 252, 0.90), rgba(245, 248, 252, 0.96)),
+    url("../img/banner-conectadata.png");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  padding: 20px;
-  text-align: center;
-}
-
-h1 {
-  font-size: 2.5em;
-  margin-bottom: 0.2em;
-}
-
-p {
-  font-size: 1.2em;
-  margin-bottom: 1.5em;
 }
 
 .foto-perfil {
-  width: 140px;
-  height: 140px;
+  width: 155px;
+  height: 155px;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  margin-bottom: 1.5em;
   object-fit: cover;
+  object-position: center top;
+  margin-bottom: 32px;
+  border: 4px solid #ffffff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+h1 {
+  margin: 0 0 18px;
+  font-size: 3rem;
+  line-height: 1.1;
+  color: #1f2d3d;
+  font-weight: 800;
+}
+
+p {
+  max-width: 850px;
+  margin: 0 auto 32px;
+  font-size: 1.35rem;
+  line-height: 1.5;
+  color: #34495e;
 }
 
 .construccion {
-  background: #f1f1f1;
-  color: #333;
-  border: 1px solid #ccc;
-  padding: 12px 24px;
-  border-radius: 8px;
-  margin-bottom: 2em;
-  font-weight: bold;
+  max-width: 920px;
+  margin: 0 auto 42px;
+  padding: 22px 32px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(120, 145, 175, 0.30);
+  border-radius: 18px;
+  color: #24364b;
+  font-size: 1.15rem;
+  font-weight: 700;
+  box-shadow: 0 12px 30px rgba(31, 45, 61, 0.08);
+  backdrop-filter: blur(6px);
 }
 
 a.button {
   display: inline-block;
-  margin: 10px;
-  padding: 12px 24px;
-  background: #0077cc;
-  color: #fff;
-  border-radius: 8px;
+  min-width: 160px;
+  margin: 10px 14px;
+  padding: 16px 30px;
+  background: #0a7bd3;
+  color: #ffffff;
+  border-radius: 16px;
   text-decoration: none;
-  font-weight: bold;
+  font-size: 1.1rem;
+  font-weight: 700;
+  box-shadow: 0 10px 22px rgba(10, 123, 211, 0.25);
+  transition: all 0.25s ease;
 }
 
 a.button:hover {
-  background: #005fa3;
+  background: #075fa7;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(10, 123, 211, 0.32);
 }
 
 footer {
-  margin-top: 2em;
-  font-size: 0.9em;
-  color: #777;
+  margin-top: 46px;
+  font-size: 0.95rem;
+  color: #6f7f8f;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 28px 16px;
+    background-attachment: scroll;
+  }
+
+  .foto-perfil {
+    width: 135px;
+    height: 135px;
+    margin-bottom: 26px;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  p {
+    font-size: 1.08rem;
+  }
+
+  .construccion {
+    padding: 18px 20px;
+    font-size: 1rem;
+  }
+
+  a.button {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    margin: 12px auto;
+  }
 }
