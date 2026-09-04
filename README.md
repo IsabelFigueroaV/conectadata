@@ -1,75 +1,65 @@
-## 🌐 Conectadata
+# 🌐 Conectadata
 
+Landing profesional de Isabel Figueroa, orientada a transformación digital, Business Intelligence, automatización de procesos e inteligencia artificial aplicada.
 
-Landing profesional de Isabel Figueroa  
-Ingeniera | RR.HH. | Datos | Power BI
-Automatización e IA práctica.
----
-
-### 🛠 Próximamente
-
-Muy pronto podrás explorar más sobre nuestro ecosistema en:
-
-- GitHub  
-- LinkedIn  
-- Contacto  
-- Power BI  
-- Autonatización
-- IA práctica
-
-
----
-<!-- Logro Articódromo -->
+**Ingeniera | RR.HH. | Business Intelligence | Power BI | Tableau | Automatización | IA aplicada**
 
 ---
 
-### 🚀 Objetivo
+## 🚀 Objetivo
 
-Este sitio es la puerta de entrada a mis proyectos, redes profesionales y contacto directo. Está construido con HTML y CSS, alojado gratuitamente en GitHub Pages.
+Conectadata es mi punto de entrada digital para reunir proyectos, redes profesionales y contacto directo.
 
----
+El sitio presenta soluciones prácticas vinculadas a datos, reportabilidad, automatización, gestión documental, aplicaciones simples e inteligencia artificial aplicada a procesos reales.
 
-### 🔗 Enlaces
-
-- [🔗 Sitio Web](https://isabelfigueroav.github.io/conectadata/)
-- [🐱 GitHub](https://github.com/IsabelFigueroaV)
-- [💼 LinkedIn](https://www.linkedin.com/in/isabelfigueroav/)
-- 📬 Contacto: isabelfigueroavargas@rrhh1313.onmicrosoft.com
+Está construido con HTML y CSS, alojado gratuitamente en GitHub Pages.
 
 ---
 
-### 🛠 Tecnologías usadas
+## 🧭 Enfoque del proyecto
+
+- Business Intelligence con Power BI y Tableau.
+- Automatización con IA aplicada a procesos administrativos y de RR.HH.
+- Reclutamiento y Selección apoyado por herramientas digitales.
+- Gestión documental, formularios y reportabilidad.
+- Desarrollo de soluciones simples para usuarios no técnicos.
+- Uso práctico de IA para productividad, análisis y toma de decisiones.
+
+---
+
+## 🔗 Enlaces
+
+- 🌐 Sitio web: [Conectadata](https://isabelfigueroav.github.io/conectadata/)
+- 🐱 GitHub: [IsabelFigueroaV](https://github.com/IsabelFigueroaV)
+- 💼 LinkedIn: [Isabel Figueroa](https://www.linkedin.com/in/isabelfigueroav/)
+- 📬 Contacto: [isabelfigueroa@rysrrhh.com](mailto:isabelfigueroa@rysrrhh.com)
+
+---
+
+## 🛠 Tecnologías usadas
 
 - HTML5
 - CSS3
 - GitHub Pages
+- Visual Studio Code
 - Estructura de carpetas en `assets` para imágenes y estilos
 
-### 🖥️ Compatibilidad
+---
 
-Pensado para Visual Studio Code en Windows 11. Ejecuta `code .` desde PowerShell para abrir el proyecto.
+## 📌 Estado
+
+Sitio publicado y en mejora continua.
+
+Próximamente se incorporarán nuevas secciones, proyectos y recursos asociados a Business Intelligence, automatización e IA aplicada.
 
 ---
 
-### 📌 Estado
+## 📖 Guía de publicación
 
-🛠 Sitio en construcción — pronto más secciones y funcionalidades.
+Puedes revisar la guía técnica del proyecto aquí:
 
----
-
-© 2025 Isabel Figueroa Vargas · Todos los derechos reservados
+[Ver guía completa de publicación](./GUIA_CONECTADATA.md)
 
 ---
 
-🔗 [Ver guía completa de publicación](./GUIA_CONECTADATA.md)
-
-
-
-
-
-  <!-- Logro Articódromo -->
-
-  
-### Este es un cambio de prueba para practicar Pull Requests
-### Nota: Este repositorio fue creado para pruebas y aprendizaje.
-Desarrollado con ❤️ por Isabel Figueroa V.
+© 2026 Isabel Figueroa · Todos los derechos reservados.
