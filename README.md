@@ -2,8 +2,8 @@
 
 
 Landing profesional de Isabel Figueroa  
-Ingeniera y Consultora en Gestión de Personas, Datos e IA práctica.
-Automatización, Power BI y mejora de procesos para el trabajo.
+Ingeniera | RR.HH. | Datos | Power BI
+Automatización e IA práctica.
 ---
 
 ### 🛠 Próximamente
