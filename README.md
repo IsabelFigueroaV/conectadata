@@ -1,10 +1,9 @@
 ## 🌐 Conectadata
 
 
-Landing profesional de Isabel Figueroa Vargas
-Ingeniera y Consultora en Transformación Digital  
-Aplico IA, Python y React para automatizar procesos y construir soluciones inteligentes.
-
+Landing profesional de Isabel Figueroa  
+Ingeniera y Consultora en Gestión de Personas, Datos e IA práctica.
+Automatización, Power BI y mejora de procesos para el trabajo.
 ---
 
 ### 🛠 Próximamente
@@ -13,9 +12,11 @@ Muy pronto podrás explorar más sobre nuestro ecosistema en:
 
 - GitHub  
 - LinkedIn  
-- Microsoft Store  
-- VSC Marketplace  
-- Página oficial (en desarrollo)
+- Contacto  
+- Power BI  
+- Autonatización
+- IA práctica
+
 
 ---
 <!-- Logro Articódromo -->
