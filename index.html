@@ -41,13 +41,14 @@
   }
   </script>
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-444CXTLPBJ"></script>
+  <!-- Google Analytics: solo se carga si la persona acepta (ver aviso al final) -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-444CXTLPBJ');
+    gtag('consent', 'default', {
+      analytics_storage: 'denied', ad_storage: 'denied',
+      ad_user_data: 'denied', ad_personalization: 'denied'
+    });
   </script>
 </head>
 
@@ -173,11 +174,82 @@
   </main>
 
   <footer class="footer">
-    <div class="wrap">© <span id="year">2026</span> Conectadata · Isabel Figueroa · Chile</div>
+    <div class="wrap">
+      © <span id="year">2026</span> Conectadata · Isabel Figueroa · Chile ·
+      <button type="button" class="linkbtn js-consent-open">Privacidad</button>
+    </div>
   </footer>
+
+  <div class="consent" id="consent" role="dialog" aria-live="polite" aria-labelledby="consent-t" hidden>
+    <p id="consent-t">
+      <strong>Tu privacidad.</strong> Me gustaría usar Google Analytics para saber cuántas personas visitan el sitio
+      y qué secciones les interesan. Los datos son estadísticos y agregados, no se usan para publicidad, y no se
+      activa nada si no aceptas.
+    </p>
+    <div class="consent__actions">
+      <button type="button" class="btn btn--ghost js-consent" data-v="denied">Rechazar</button>
+      <button type="button" class="btn btn--primary js-consent" data-v="granted">Aceptar</button>
+    </div>
+  </div>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // ----- Consentimiento de analítica -----
+    (function () {
+      var KEY = 'conectadata-consent';
+      var GA_ID = 'G-444CXTLPBJ';
+      var box = document.getElementById('consent');
+      var loaded = false;
+
+      function read() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+      function save(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+
+      function loadGA() {
+        if (loaded) return;
+        loaded = true;
+        gtag('consent', 'update', { analytics_storage: 'granted' });
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+        document.head.appendChild(s);
+        gtag('js', new Date());
+        gtag('config', GA_ID, { anonymize_ip: true });
+      }
+
+      function clearGACookies() {
+        document.cookie.split(';').forEach(function (c) {
+          var name = c.split('=')[0].trim();
+          if (/^_ga/.test(name)) {
+            document.cookie = name + '=; Max-Age=0; path=/';
+            document.cookie = name + '=; Max-Age=0; path=/; domain=' + location.hostname;
+            document.cookie = name + '=; Max-Age=0; path=/; domain=.' + location.hostname.split('.').slice(-2).join('.');
+          }
+        });
+      }
+
+      function choose(v) {
+        save(v);
+        box.hidden = true;
+        if (v === 'granted') { loadGA(); }
+        else {
+          gtag('consent', 'update', { analytics_storage: 'denied' });
+          clearGACookies();
+        }
+      }
+
+      document.querySelectorAll('.js-consent').forEach(function (b) {
+        b.addEventListener('click', function () { choose(b.dataset.v); });
+      });
+      document.querySelectorAll('.js-consent-open').forEach(function (b) {
+        b.addEventListener('click', function () { box.hidden = false; });
+      });
+
+      var saved = read();
+      if (saved === 'granted') loadGA();
+      else if (saved !== 'denied') box.hidden = false;
+    })();
+
     document.querySelectorAll('.js-mail').forEach(function (a) {
       a.addEventListener('click', function (e) {
         e.preventDefault();
