@@ -2,13 +2,44 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Landing profesional de Isabel Figueroa, ingeniera y consultora en transformación digital, Business Intelligence, automatización e inteligencia artificial aplicada." />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Isabel Figueroa | Conectadata</title>
+  <meta name="description" content="Ingeniera y consultora en transformación digital: Business Intelligence, automatización e IA aplicada a RR.HH. Proyectos, herramientas y contacto." />
+  <link rel="canonical" href="https://isabelfigueroav.github.io/conectadata/" />
+  <meta name="theme-color" content="#f7f8fc" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0b1020" media="(prefers-color-scheme: dark)" />
+  <meta name="color-scheme" content="light dark" />
 
-  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <!-- Vista previa al compartir (LinkedIn, WhatsApp, etc.) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_CL" />
+  <meta property="og:site_name" content="Conectadata" />
+  <meta property="og:title" content="Isabel Figueroa | Conectadata" />
+  <meta property="og:description" content="Business Intelligence, automatización e IA aplicada a RR.HH. Soluciones simples, visuales y útiles." />
+  <meta property="og:url" content="https://isabelfigueroav.github.io/conectadata/" />
+  <meta property="og:image" content="https://isabelfigueroav.github.io/conectadata/assets/img/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/img/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+  <link rel="preload" href="assets/img/isabel.webp" as="image" />
   <link rel="stylesheet" href="assets/css/style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Isabel Figueroa",
+    "jobTitle": "Ingeniera y consultora en transformación digital",
+    "url": "https://isabelfigueroav.github.io/conectadata/",
+    "image": "https://isabelfigueroav.github.io/conectadata/assets/img/isabel.webp",
+    "address": { "@type": "PostalAddress", "addressCountry": "CL" },
+    "knowsAbout": ["Business Intelligence", "Power BI", "Tableau", "Automatización", "Inteligencia artificial", "Recursos Humanos"],
+    "sameAs": ["https://www.linkedin.com/in/isabelfigueroav/", "https://github.com/IsabelFigueroaV"]
+  }
+  </script>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-444CXTLPBJ"></script>
@@ -16,46 +47,143 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-444CXTLPBJ');
   </script>
 </head>
 
 <body>
-  <img 
-  src="assets/img/isa.jpg" 
-  alt="Fotografía de Isabel Figueroa" 
-  class="foto-perfil"
-  style="width:125px; height:125px; max-width:125px; max-height:125px; border-radius:50%; object-fit:cover; object-position:center top; border:4px solid #ffffff; box-shadow:0 12px 30px rgba(0,0,0,0.18);"
-/>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
 
-  <h1>Isabel Figueroa</h1>
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="#inicio" aria-label="Conectadata, inicio">
+        <span class="brand__mark" aria-hidden="true">C</span>Conectadata
+      </a>
+      <nav aria-label="Secciones">
+        <a href="#servicios">Qué hago</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
 
-  <p>
-    Ingeniera y Consultora en Transformación Digital<br>
-    Business Intelligence | Automatización | IA aplicada a RR.HH.
-  </p>
+  <main id="contenido">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="wrap hero__inner">
+        <img class="hero__photo" src="assets/img/isabel.webp" width="400" height="400"
+             alt="Fotografía de Isabel Figueroa" />
+        <div class="hero__text">
+          <p class="eyebrow">Ingeniera · Consultora en transformación digital</p>
+          <h1>Hola, soy <span class="grad">Isabel Figueroa</span></h1>
+          <p class="lead">
+            Convierto procesos manuales en herramientas <strong>simples, visuales y útiles</strong>:
+            dashboards, automatizaciones e IA aplicada a RR.HH. y a la gestión del día a día.
+          </p>
+          <div class="cta">
+            <a class="btn btn--primary" href="#proyectos">Ver proyectos</a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/isabelfigueroav/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+          <ul class="chips" aria-label="Herramientas principales">
+            <li>Power BI</li><li>Tableau</li><li>Excel / VBA</li><li>Python</li><li>React · Electron</li><li>Flutter</li><li>IA aplicada</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-  <div class="construccion">
-    Soluciones en Business Intelligence, automatización e IA aplicada a procesos reales.
-  </div>
+    <!-- ============ SERVICIOS ============ -->
+    <section class="section" id="servicios" aria-labelledby="t-servicios">
+      <div class="wrap">
+        <h2 id="t-servicios">Qué hago</h2>
+        <div class="grid grid--3">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">📊</div>
+            <h3>Business Intelligence</h3>
+            <p>Dashboards e indicadores en Power BI, Tableau y Excel para reportabilidad clara y decisiones informadas.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🤖</div>
+            <h3>Automatización e IA</h3>
+            <p>Flujos que ahorran horas en reclutamiento y selección, gestión documental y análisis de datos.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">💻</div>
+            <h3>Herramientas a medida</h3>
+            <p>Aplicaciones de escritorio y web pensadas para personas no técnicas: se abren y funcionan.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <div>
-    <a href="https://github.com/IsabelFigueroaV" class="button" target="_blank" rel="noopener noreferrer">
-      GitHub
-    </a>
+    <!-- ============ PROYECTOS ============ -->
+    <section class="section section--alt" id="proyectos" aria-labelledby="t-proyectos">
+      <div class="wrap">
+        <h2 id="t-proyectos">Proyectos</h2>
+        <p class="section__intro">Herramientas que construí para resolver problemas reales. Todas son de código abierto.</p>
+        <div class="grid grid--3">
+          <a class="card card--link" href="https://github.com/IsabelFigueroaV/herramientas-utiles" target="_blank" rel="noopener noreferrer">
+            <h3>🧰 Herramientas Útiles</h3>
+            <p>Centro de utilidades de escritorio: analizar CSV/Excel, buscar duplicados, cifrar archivos y más, con modo seguro.</p>
+            <ul class="tags"><li>Python</li><li>PySide6</li></ul>
+          </a>
+          <a class="card card--link" href="https://github.com/IsabelFigueroaV/transcriptor-video-a-texto" target="_blank" rel="noopener noreferrer">
+            <h3>🎬 Transcriptor de Video</h3>
+            <p>Descarga o carga videos y los transcribe a texto localmente, sin enviar datos a la nube.</p>
+            <ul class="tags"><li>Python</li><li>Whisper</li></ul>
+          </a>
+          <a class="card card--link" href="https://github.com/IsabelFigueroaV/motor-dashboard-excel-isabel" target="_blank" rel="noopener noreferrer">
+            <h3>📊 Motor Dashboard</h3>
+            <p>Complemento nativo de Excel que analiza, alinea y audita dashboards, KPI, gráficos y segmentadores.</p>
+            <ul class="tags"><li>VBA</li><li>Excel</li></ul>
+          </a>
+          <a class="card card--link" href="https://github.com/IsabelFigueroaV/editor-pdf" target="_blank" rel="noopener noreferrer">
+            <h3>📝 Editor PDF</h3>
+            <p>Convierte PDF a Word editable desde una app de escritorio, desde un archivo local o una URL.</p>
+            <ul class="tags"><li>Flutter</li><li>Dart</li></ul>
+          </a>
+          <a class="card card--link" href="https://github.com/IsabelFigueroaV/generador-firmas-correo" target="_blank" rel="noopener noreferrer">
+            <h3>✉️ Generador de Firmas</h3>
+            <p>Firmas de correo HTML profesionales con plantillas, foto y logo, compatibles con Gmail y Outlook.</p>
+            <ul class="tags"><li>HTML</li><li>JavaScript</li></ul>
+          </a>
+          <a class="card card--link" href="https://github.com/IsabelFigueroaV/Calculadora-edad" target="_blank" rel="noopener noreferrer">
+            <h3>🧮 Calculadora de Edad</h3>
+            <p>App de escritorio que calcula la edad exacta, valida fechas y exporta el historial.</p>
+            <ul class="tags"><li>React</li><li>Electron</li></ul>
+          </a>
+        </div>
+        <p class="more"><a href="https://github.com/IsabelFigueroaV" target="_blank" rel="noopener noreferrer">Ver todo en GitHub ↗</a></p>
+      </div>
+    </section>
 
-    <a href="https://www.linkedin.com/in/isabelfigueroav/" class="button" target="_blank" rel="noopener noreferrer">
-      LinkedIn
-    </a>
+    <!-- ============ CONTACTO ============ -->
+    <section class="section" id="contacto" aria-labelledby="t-contacto">
+      <div class="wrap">
+        <div class="contact">
+          <h2 id="t-contacto">¿Conversamos?</h2>
+          <p>Si tienes un proceso que se puede simplificar, un reporte que toma demasiado tiempo o una idea por aterrizar, escríbeme.</p>
+          <div class="cta cta--center">
+            <a class="btn btn--primary" href="https://www.linkedin.com/in/isabelfigueroav/" target="_blank" rel="noopener noreferrer">Escríbeme por LinkedIn</a>
+            <!-- El correo se arma al hacer clic para evitar que los bots de spam lo lean -->
+            <a class="btn btn--ghost js-mail" href="#contacto" data-u="isabelfigueroa" data-d="rysrrhh.com">Enviar correo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <a href="mailto:isabelfigueroa@rysrrhh.com" class="button">
-      Contacto
-    </a>
-  </div>
-
-  <footer>
-    © 2026 Conectadata · Isabel Figueroa · Todos los derechos reservados
+  <footer class="footer">
+    <div class="wrap">© <span id="year">2026</span> Conectadata · Isabel Figueroa · Chile</div>
   </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('.js-mail').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        window.location.href = 'mailto:' + a.dataset.u + '@' + a.dataset.d;
+      });
+    });
+  </script>
 </body>
 </html>
